@@ -44,5 +44,6 @@ Route::get('mon-an/{monAn?}', function ($monAn='món ăn mặc định') {
 Route::get('','userController@getList');
 
 Route::get('add', 'userController@getAdd');
-
+Route::post('add', 'userController@postAdd');
 Route::get('edit', 'userController@getEdit');
+

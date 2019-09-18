@@ -1,4 +1,9 @@
 @extends('master.master')
+
+@section('title')
+    User
+
+@endsection
 @section('content')
 <article class="content dashboard-page">
 
@@ -10,7 +15,7 @@
                         <div class="card-header bordered">
                             <div class="header-block">
                                 <h3 class="title"> Danh sách thành viên </h3>
-                                <a href="add_user.html" class="btn btn-primary btn-sm"> Thêm </a>
+                                <a href="/add" class="btn btn-primary btn-sm"> Thêm </a>
                             </div>
                             <div class="header-block pull-right">
                                 <label class="search">

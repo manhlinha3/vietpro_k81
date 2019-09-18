@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title> VietPro Bootstrap 4 </title>
+    <title> @yield('title') </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Thư viện vedor -->
@@ -77,7 +77,7 @@
                     <nav class="menu">
                         <ul class="sidebar-menu metismenu" id="sidebar-menu">
                             <li class="active">
-                                <a href="user.html">
+                                <a href="/">
                                     <i class="fa fa-user"></i> Quản lý thành viên </a>
                             </li>
 
